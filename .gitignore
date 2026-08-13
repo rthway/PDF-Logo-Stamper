@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# PyInstaller output
+build/
+dist/
+*.spec.bak
+
+# Local artefacts
+*.log
+.pytest_cache/
+.coverage
+settings.json

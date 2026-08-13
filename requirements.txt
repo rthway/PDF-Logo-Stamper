@@ -1,0 +1,10 @@
+# Runtime dependencies (Python 3.10+ on Windows 10/11)
+PyMuPDF>=1.24,<2
+Pillow>=10.0
+
+# Optional: enables dragging files from Explorer onto the window.
+# The app works without it (in-app stamp dragging is always available).
+tkinterdnd2>=0.4 ; python_version >= "3.8"
+
+# Build only (not needed to run from source):
+#   pip install pyinstaller>=6.0
